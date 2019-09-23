@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Productos;
+use App\Marcas;
+use App\Categorias;
 use App\Inventario;
 use Response;
 use Validator;
@@ -38,7 +40,15 @@ class ProductosController extends Controller
                     break;
                 }
                 case 'marca':{
-                    $objectSee = Productos::whereRaw('marca=?',[$id])->with('tipos','categorias','marcas')->get();
+                    $objectSee = Marcas::whereRaw('id=?',[$id])->with('padre','submarca','productos')->get();
+                    break;
+                }
+                case 'categoria_tipo':{
+                    $objectSee = Productos::whereRaw('categoria=? && tipo=?',[$id,$state])->with('tipos','categorias','marcas')->get();
+                    break;
+                }
+                case 'categoria_marca':{
+                    $objectSee = Productos::whereRaw('categoria=? && marca=?',[$id,$state])->with('tipos','categorias','marcas')->get();
                     break;
                 }
                 case 'categoria':{

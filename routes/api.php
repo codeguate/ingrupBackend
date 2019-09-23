@@ -71,6 +71,10 @@ Route::get('comprobante/taller', 'TallerController@comprobante');
 Route::get('ventas/by/clientes/{id}', 'VentasController@ventasByClient');
 Route::get('taller/by/clientes/{id}', 'TallerController@ventasByClient');
 Route::get('cuentascobrar/by/clientes/{id}', 'CuentasCobrarController@cuentasByClient');
+Route::get('filter/{id}/productos/{state}', "ProductosController@getThisByFilter");
+Route::get('filter/{id}/marcas/{state}', "MarcasController@getThisByFilter");
+Route::get('filter/{id}/tiposproducto/{state}', "TiposProductoController@getThisByFilter");
+Route::get('filter/{id}/categorias/{state}', "CategoriasController@getThisByFilter");
 Route::get('filter/{id}/inventario/{state}', "InventarioController@getThisByFilter");
 
 Route::get('shopify/orders', 'VentasController@Ordenes');
