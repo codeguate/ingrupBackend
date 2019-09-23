@@ -17,4 +17,12 @@ class Productos extends Model
     public function tipos(){
         return $this->hasOne('App\TiposProducto','id','tipo');
     }
+
+    public function marcas(){
+        return $this->hasOne('App\Marcas','id','marca')->with('padre');
+    }
+
+    public function categorias(){
+        return $this->hasOne('App\Categorias','id','categoria')->with('padre');
+    }
 }

@@ -39,7 +39,7 @@ class TiposProductoController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'descripcion'          => 'required',
+            'nombre'          => 'required',
         ]);
         if ( $validator->fails() ) {
             $returnData = array (
@@ -53,6 +53,8 @@ class TiposProductoController extends Controller
             try {
                 $newObject = new TiposProducto();
                 $newObject->descripcion            = $request->get('descripcion');
+                $newObject->nombre            = $request->get('nombre');
+                $newObject->foto            = $request->get('foto');
                 $newObject->save();
                 return Response::json($newObject, 200);
             
@@ -111,6 +113,9 @@ class TiposProductoController extends Controller
         $objectUpdate = TiposProducto::find($id);
         if ($objectUpdate) {
             try {
+                $objectUpdate->nombre = $request->get('nombre', $objectUpdate->nombre);
+                $objectUpdate->foto = $request->get('foto', $objectUpdate->foto);
+                $objectUpdate->estado = $request->get('estado', $objectUpdate->estado);
                 $objectUpdate->descripcion = $request->get('descripcion', $objectUpdate->descripcion);
         
                 $objectUpdate->save();

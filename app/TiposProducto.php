@@ -7,6 +7,10 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 
 class TiposProducto extends Model
 {
-    use SoftDeletes;
     protected $table = 'tiposproducto';
+
+    
+    public function productos(){
+        return $this->hasMany('App\Productos','tipo','id');
+    }
 }

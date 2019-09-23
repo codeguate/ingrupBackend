@@ -14,6 +14,7 @@ use Illuminate\Http\Request;
 */
 
 Route::resource('accesos', 'AccesosController');
+Route::resource('categorias', 'CategoriasController');
 Route::resource('clientes', 'ClientesController');
 Route::resource('comisiones', 'ComisionesController');
 Route::resource('compras', 'ComprasController');

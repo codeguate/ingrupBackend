@@ -18,7 +18,54 @@ class ProductosController extends Controller
      */
     public function index()
     {
-        return Response::json(Productos::with('inventario')->get(), 200);
+        return Response::json(Productos::with('tipos','categorias','marcas','inventario')->get(), 200);
+    }
+
+    public function getThisByFilter(Request $request, $id,$state)
+    {
+        if($request->get('filter')){
+            switch ($request->get('filter')) {
+                case 'tipo':{
+                    $objectSee = Productos::whereRaw('tipo=?',[$id])->with('tipos','categorias','marcas')->get();
+                    break;
+                }
+                case 'nombre':{
+                    $objectSee = Productos::whereRaw('nombre=?',[$id])->with('tipos','categorias','marcas')->get();
+                    break;
+                }
+                case 'nombres':{
+                    $objectSee = Productos::whereRaw('nombre like %?%',[$id])->with('tipos','categorias','marcas')->get();
+                    break;
+                }
+                case 'marca':{
+                    $objectSee = Productos::whereRaw('marca=?',[$id])->with('tipos','categorias','marcas')->get();
+                    break;
+                }
+                case 'categoria':{
+                    $objectSee = Productos::whereRaw('categoria=?',[$id])->with('tipos','categorias','marcas')->get();
+                    break;
+                }
+                default:{
+                    $objectSee = Productos::whereRaw('user=? and state=?',[$id,$state])->with('tipos','categorias','marcas')->get();
+                    break;
+                }
+    
+            }
+        }else{
+            $objectSee = Productos::whereRaw('user=? and state=?',[$id,$state])->with('tipos','categorias','marcas')->get();
+        }
+    
+        if ($objectSee) {
+            return Response::json($objectSee, 200);
+    
+        }
+        else {
+            $returnData = array (
+                'status' => 404,
+                'message' => 'No record found'
+            );
+            return Response::json($returnData, 404);
+        }
     }
 
     public function existencia()
@@ -73,6 +120,21 @@ class ProductosController extends Controller
                     $newObject->nombre            = $request->get('nombre');
                     $newObject->codigo            = $request->get('codigo');
                     $newObject->marcaDes          = $request->get('marcaDes');
+                    $newObject->hasModel              = $request->get('hasModel');
+                    $newObject->fov              = $request->get('fov');
+                    $newObject->near              = $request->get('near');
+                    $newObject->far              = $request->get('far');
+                    $newObject->pX              = $request->get('pX');
+                    $newObject->pY              = $request->get('pY');
+                    $newObject->pZ              = $request->get('pZ');
+                    $newObject->model              = $request->get('model');
+                    $newObject->foto              = $request->get('foto');
+                    $newObject->tX              = $request->get('tX');
+                    $newObject->tY              = $request->get('tY');
+                    $newObject->tZ              = $request->get('tZ');
+                    $newObject->rX              = $request->get('rX');
+                    $newObject->rY              = $request->get('rY');
+                    $newObject->rZ              = $request->get('rZ');
                     $newObject->tipo              = $request->get('tipo');
                     $newObject->save();
                     $newObject1 = new Inventario();
@@ -164,6 +226,21 @@ class ProductosController extends Controller
                     $objectUpdate->marcaDes          = $request->get('marcaDes', $objectUpdate->marcaDes);
                     $objectUpdate->tipo              = $request->get('tipo', $objectUpdate->tipo);
                     $objectUpdate->estado            = $request->get('estado', $objectUpdate->estado);
+                    $objectUpdate->hasModel             = $request->get('hasModel', $objectUpdate->hasModel);
+                    $objectUpdate->fov             = $request->get('fov', $objectUpdate->fov);
+                    $objectUpdate->near             = $request->get('near', $objectUpdate->near);
+                    $objectUpdate->far             = $request->get('far', $objectUpdate->far);
+                    $objectUpdate->pX             = $request->get('pX', $objectUpdate->pX);
+                    $objectUpdate->pY             = $request->get('pY', $objectUpdate->pY);
+                    $objectUpdate->pZ             = $request->get('pZ', $objectUpdate->pZ);
+                    $objectUpdate->model             = $request->get('model', $objectUpdate->model);
+                    $objectUpdate->foto             = $request->get('foto', $objectUpdate->foto);
+                    $objectUpdate->tX             = $request->get('tX', $objectUpdate->tX);
+                    $objectUpdate->tY             = $request->get('tY', $objectUpdate->tY);
+                    $objectUpdate->tZ             = $request->get('tZ', $objectUpdate->tZ);
+                    $objectUpdate->rX             = $request->get('rX', $objectUpdate->rX);
+                    $objectUpdate->rY             = $request->get('rY', $objectUpdate->rY);
+                    $objectUpdate->rZ             = $request->get('rZ', $objectUpdate->rZ);
                     $objectUpdate->marca             = $request->get('marca', $objectUpdate->marca);
                     
                     $objectUpdate->save();
