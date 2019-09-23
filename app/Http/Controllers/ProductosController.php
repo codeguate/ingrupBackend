@@ -28,7 +28,8 @@ class ProductosController extends Controller
         if($request->get('filter')){
             switch ($request->get('filter')) {
                 case 'tipo':{
-                    $objectSee = Productos::whereRaw('tipo=?',[$id])->with('tipos','categorias','marcas')->get();
+                    $objectSee = Productos::select('categoria')->whereRaw('tipo=?',[$id])->groupby('categoria')->orderby('categoria')->get();
+                    $objectSee = Categorias::whereIn("id",$objectSee)->with('padre','subcategorias','productos')->get();
                     break;
                 }
                 case 'nombre':{
@@ -40,7 +41,8 @@ class ProductosController extends Controller
                     break;
                 }
                 case 'marca':{
-                    $objectSee = Marcas::whereRaw('id=?',[$id])->with('padre','submarca','productos')->get();
+                    $objectSee = Productos::select('marca')->whereRaw('marca=?',[$id])->groupby('marca')->orderby('marca')->get();
+                    $objectSee = Marcas::whereIn("id",$objectSee)->with('padre','submarca','productos')->get();
                     break;
                 }
                 case 'categoria_tipo':{
