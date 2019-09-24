@@ -73,7 +73,7 @@ class CategoriasSeeder extends Seeder
         ]);
         DB::table('marcas')->insert([
             'nombre'      => "Linea Agro -Industrial ",
-            'foto'      => "assets/images/Mercados/Modulo-1/menu-principal/Resinas-recicladas.png",
+            'foto'      => "assets/images/Mercados/Modulo-1/menu-principal/Linea-Agro-Industrial.png",
             'descripcion'      => "Linea Agro -Industrial ",
             'estado'           => 1,
             'padre'           => null,
@@ -83,7 +83,7 @@ class CategoriasSeeder extends Seeder
         ]);
         DB::table('marcas')->insert([
             'nombre'      => "Linea Vial",
-            'foto'      => "assets/images/Mercados/Modulo-1/menu-principal/Resinas-recicladas.png",
+            'foto'      => "assets/images/Mercados/Modulo-1/menu-principal/Linea-Vial.png",
             'descripcion'      => "Linea Vial",
             'estado'           => 1,
             'padre'           => null,
@@ -93,7 +93,7 @@ class CategoriasSeeder extends Seeder
         ]);
         DB::table('tiposproducto')->insert([
             'nombre'      => "Bebidas",
-            'foto'      => "Bebidas",
+            'foto'      => "assets/images/Productos/Modulo-1/Iconos/Envases.png",
             'descripcion'      => "Bebidas",
             'estado'           => 1,
             'deleted_at'       => null,
