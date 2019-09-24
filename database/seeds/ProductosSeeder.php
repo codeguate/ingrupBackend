@@ -12,8 +12,8 @@ class ProductosSeeder extends Seeder
     public function run()
     {
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo 1",
+            'nombre'     => "Modelo 1",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -42,8 +42,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Envase PET 500 ml Generico 18.5 grs",
-            'nombre'     => "Envase PET 500 ml Generico 18.5 grs",
+            'descripcion'    => "Modelo Bote 01",
+            'nombre'     => "Modelo Bote 01",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -72,8 +72,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Preforma_pet_33mm",
+            'nombre'     => "Modelo Preforma_pet_33mm",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -102,8 +102,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Preforma_pet_1816mm",
+            'nombre'     => "Modelo Preforma_pet_1816mm",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -132,8 +132,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Preforma_pet_1881mm",
+            'nombre'     => "Modelo Preforma_pet_1881mm",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -162,8 +162,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_carbonatada_csd_1_v1_28mm_1881",
+            'nombre'     => "Modelo Tapa_carbonatada_csd_1_v1_28mm_1881",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -192,8 +192,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_carbonatada_csd8_28mm_1881",
+            'nombre'     => "Modelo Tapa_carbonatada_csd8_28mm_1881",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -222,8 +222,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_liner_af6_pn_y_pr_1816_mm",
+            'nombre'     => "Modelo Tapa_liner_af6_pn_y_pr_1816_mm",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -252,8 +252,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_liner_pc_1881_mm",
+            'nombre'     => "Modelo Tapa_liner_pc_1881_mm",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -282,8 +282,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_nocarbonatada_33mm",
+            'nombre'     => "Modelo Tapa_nocarbonatada_33mm",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -312,8 +312,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_nocarbonatada_CAF4_1816",
+            'nombre'     => "Modelo Tapa_nocarbonatada_CAF4_1816",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -342,8 +342,8 @@ class ProductosSeeder extends Seeder
         ]);
 
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_nocarbonatada_caf5_28mm_1881",
+            'nombre'     => "Modelo Tapa_nocarbonatada_caf5_28mm_1881",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -372,8 +372,8 @@ class ProductosSeeder extends Seeder
         ]);
         
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_noname_01",
+            'nombre'     => "Modelo Tapa_noname_01",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -401,8 +401,8 @@ class ProductosSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_noname_02",
+            'nombre'     => "Modelo Tapa_noname_02",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -430,8 +430,8 @@ class ProductosSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_noname_03_02",
+            'nombre'     => "Modelo Tapa_noname_03_02",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -459,8 +459,8 @@ class ProductosSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_noname_03",
+            'nombre'     => "Modelo Tapa_noname_03",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -488,8 +488,8 @@ class ProductosSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_noname_04_02",
+            'nombre'     => "Modelo Tapa_noname_04_02",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -517,8 +517,8 @@ class ProductosSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_noname_04",
+            'nombre'     => "Modelo Tapa_noname_04",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -546,8 +546,8 @@ class ProductosSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapa_noname_05_parte_03",
+            'nombre'     => "Modelo Tapa_noname_05_parte_03",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -575,8 +575,8 @@ class ProductosSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapon_01",
+            'nombre'     => "Modelo Tapon_01",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
@@ -604,8 +604,8 @@ class ProductosSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('productos')->insert([
-            'descripcion'    => "Tapa",
-            'nombre'     => "Tapa",
+            'descripcion'    => "Modelo Tapon 02",
+            'nombre'     => "Modelo Tapon 02",
             'codigo'     => "000",
             'foto'   => null,
             'marcaDes'   => "",
