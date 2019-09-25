@@ -91,19 +91,19 @@ class CategoriasSeeder extends Seeder
             'created_at'       => date('Y-m-d H:m:s'),
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
-        DB::table('marcas')->insert(['nombre'=>'Bebidas Carbonatadas','foto'=> '','descripcion'=>'Bebidas Carbonatadas','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Bebidas No Carbonatadas','foto'=> '','descripcion'=>'Bebidas No Carbonatadas','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Cerveza y Licores','foto'=> '','descripcion'=>'Cerveza y Licores','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Bebidas Carbonatadas','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Bebidas/Carbonatadas.png','descripcion'=>'Bebidas Carbonatadas','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Bebidas No Carbonatadas','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Bebidas/No-carbonatadas.png','descripcion'=>'Bebidas No Carbonatadas','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Cerveza y Licores','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Bebidas/Cervezas-y-licores.png','descripcion'=>'Cerveza y Licores','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
 
-        DB::table('marcas')->insert(['nombre'=>'Aceites ','foto'=> '','descripcion'=>'Aceites ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Salsas  y Aderezos ','foto'=> '','descripcion'=>'Salsas  y Aderezos ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Lacteos y Embutidos ','foto'=> '','descripcion'=>'Lacteos y Embutidos ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Miel','foto'=> '','descripcion'=>'Miel','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Cereales y Harinas','foto'=> '','descripcion'=>'Cereales y Harinas','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Snacks','foto'=> '','descripcion'=>'Snacks','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Café y Condimentos','foto'=> '','descripcion'=>'Café y Condimentos','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Aceites ','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Aceites.png','descripcion'=>'Aceites ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Salsas  y Aderezos ','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Salsas-y-Aderezos.png','descripcion'=>'Salsas  y Aderezos ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Lacteos y Embutidos ','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Lacteos-y-embutidos.png','descripcion'=>'Lacteos y Embutidos ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Miel','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Miel.png','descripcion'=>'Miel','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Cereales y Harinas','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Cereales-y-Harinas.png','descripcion'=>'Cereales y Harinas','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Snacks','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Snacks.png','descripcion'=>'Snacks','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Café y Condimentos','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Cafe-y-condimentos.png','descripcion'=>'Café y Condimentos','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
 
-        DB::table('marcas')->insert(['nombre'=>'Home Care ','foto'=> '','descripcion'=>'Home Care ','estado'=>1,'padre'=> 3,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Home Care ','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Home-care.png','descripcion'=>'Home Care ','estado'=>1,'padre'=> 3,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
 // ************************************************************************************************************************
         DB::table('tiposproducto')->insert([
             'nombre'      => "Preformas",
@@ -302,10 +302,219 @@ class CategoriasSeeder extends Seeder
         ]);
         
         DB::table('categorias')->insert([
-            'nombre'      => "Cajilas",
+            'nombre'      => "Cajillas",
             'orden'      => 6,
             'foto'      => null,
-            'descripcion'      => "Cajilas",
+            'descripcion'      => "Cajillas",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Cajas Agrícolas",
+            'orden'      => 7,
+            'foto'      => null,
+            'descripcion'      => "Cajas Agrícolas",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Vasos",
+            'orden'      => 8,
+            'foto'      => null,
+            'descripcion'      => "Vasos",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Cajillas Plegadizas",
+            'orden'      => 9,
+            'foto'      => null,
+            'descripcion'      => "Cajillas Plegadizas",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Resinas Recicladas",
+            'orden'      => 10,
+            'foto'      => null,
+            'descripcion'      => "Resinas Recicladas",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Depósitos de Agua",
+            'orden'      => 11,
+            'foto'      => null,
+            'descripcion'      => "Depósitos de Agua",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Cisternas",
+            'orden'      => 12,
+            'foto'      => null,
+            'descripcion'      => "Cisternas",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Fosas Sépticas ",
+            'orden'      => 13,
+            'foto'      => null,
+            'descripcion'      => "Fosas Sépticas ",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Pilas",
+            'orden'      => 14,
+            'foto'      => null,
+            'descripcion'      => "Pilas",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Lavaderos",
+            'orden'      => 15,
+            'foto'      => null,
+            'descripcion'      => "Lavaderos",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Contenedor Industrial ",
+            'orden'      => 16,
+            'foto'      => null,
+            'descripcion'      => "Contenedor Industrial ",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Hieleras",
+            'orden'      => 17,
+            'foto'      => null,
+            'descripcion'      => "Hieleras",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Casillero Industrial / Comercial ",
+            'orden'      => 18,
+            'foto'      => null,
+            'descripcion'      => "Casillero Industrial / Comercial ",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Letrinas",
+            'orden'      => 19,
+            'foto'      => null,
+            'descripcion'      => "Letrinas",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Tarima",
+            'orden'      => 20,
+            'foto'      => null,
+            'descripcion'      => "Tarima",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Envases PE Industrial ",
+            'orden'      => 21,
+            'foto'      => null,
+            'descripcion'      => "Envases PE Industrial ",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Multibox",
+            'orden'      => 22,
+            'foto'      => null,
+            'descripcion'      => "Multibox",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Cubetas",
+            'orden'      => 23,
+            'foto'      => null,
+            'descripcion'      => "Cubetas",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Canastos",
+            'orden'      => 24,
+            'foto'      => null,
+            'descripcion'      => "Canastos",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Linea Vial",
+            'orden'      => 25,
+            'foto'      => null,
+            'descripcion'      => "Linea Vial",
             'estado'           => 1,
             'deleted_at'       => null,
             'created_at'       => date('Y-m-d H:m:s'),
