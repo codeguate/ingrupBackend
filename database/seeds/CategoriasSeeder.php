@@ -72,7 +72,7 @@ class CategoriasSeeder extends Seeder
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
         DB::table('marcas')->insert([
-            'nombre'      => "Linea Agro -Industrial ",
+            'nombre'      => "Linea Agro-Industrial ",
             'foto'      => "assets/images/Mercados/Modulo-1/menu-principal/Linea-Agro-Industrial.png",
             'descripcion'      => "Linea Agro -Industrial ",
             'estado'           => 1,
@@ -91,19 +91,19 @@ class CategoriasSeeder extends Seeder
             'created_at'       => date('Y-m-d H:m:s'),
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
-        DB::table('marcas')->insert(['nombre'=>'Bebidas Carbonatadas','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Bebidas/Carbonatadas.png','descripcion'=>'Bebidas Carbonatadas','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Bebidas No Carbonatadas','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Bebidas/No-carbonatadas.png','descripcion'=>'Bebidas No Carbonatadas','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Cerveza y Licores','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Bebidas/Cervezas-y-licores.png','descripcion'=>'Cerveza y Licores','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Bebidas Carbonatadas','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Bebidas/Carbonatadas.png','descripcion'=>'Bebidas Carbonatadas','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Bebidas No Carbonatadas','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Bebidas/No-carbonatadas.png','descripcion'=>'Bebidas No Carbonatadas','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Cerveza y Licores','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Bebidas/Cervezas-y-licores.png','descripcion'=>'Cerveza y Licores','estado'=>1,'padre'=> 1,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
 
-        DB::table('marcas')->insert(['nombre'=>'Aceites ','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Aceites.png','descripcion'=>'Aceites ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Salsas  y Aderezos ','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Salsas-y-Aderezos.png','descripcion'=>'Salsas  y Aderezos ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Lacteos y Embutidos ','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Lacteos-y-embutidos.png','descripcion'=>'Lacteos y Embutidos ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Miel','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Miel.png','descripcion'=>'Miel','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Cereales y Harinas','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Cereales-y-Harinas.png','descripcion'=>'Cereales y Harinas','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Snacks','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Snacks.png','descripcion'=>'Snacks','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
-        DB::table('marcas')->insert(['nombre'=>'Café y Condimentos','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Alimentos/Cafe-y-condimentos.png','descripcion'=>'Café y Condimentos','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Aceites ','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Alimentos/Aceites.png','descripcion'=>'Aceites ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Salsas  y Aderezos ','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Alimentos/Salsas-y-Aderezos.png','descripcion'=>'Salsas  y Aderezos ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Lacteos y Embutidos ','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Alimentos/Lacteos-y-embutidos.png','descripcion'=>'Lacteos y Embutidos ','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Miel','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Alimentos/Miel.png','descripcion'=>'Miel','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Cereales y Harinas','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Alimentos/Cereales-y-Harinas.png','descripcion'=>'Cereales y Harinas','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Snacks','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Alimentos/Snacks.png','descripcion'=>'Snacks','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Café y Condimentos','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Alimentos/Cafe-y-condimentos.png','descripcion'=>'Café y Condimentos','estado'=>1,'padre'=> 2,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
 
-        DB::table('marcas')->insert(['nombre'=>'Home Care ','foto'=> 'assets/images/Mercados/Modulo-1/menu-principal/Home-care.png','descripcion'=>'Home Care ','estado'=>1,'padre'=> 3,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
+        DB::table('marcas')->insert(['nombre'=>'Home Care ','foto'=> 'assets/images/Mercados/Modulo-1/iconos/Home-care.png','descripcion'=>'Home Care ','estado'=>1,'padre'=> 3,'deleted_at'=>null,'created_at'=>date('Y-m-d H:m:s'),'updated_at'=>date('Y-m-d H:m:s')]);
 // ************************************************************************************************************************
         DB::table('tiposproducto')->insert([
             'nombre'      => "Preformas",
