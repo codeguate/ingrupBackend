@@ -17,7 +17,7 @@ class MarcasController extends Controller
      */
     public function index()
     {
-        return Response::json(Marcas::all(), 200);
+        return Response::json(Marcas::whereRaw("padre IS NULL")->with('padre','submarca')->get(), 200);
     }
 
     public function getThisByFilter(Request $request, $id,$state)
@@ -113,7 +113,7 @@ class MarcasController extends Controller
      */
     public function show($id)
     {
-        $objectSee = Marcas::find($id);
+        $objectSee = Marcas::whereRaw('id=?',[$id])->with('padre','submarca')->first();
         if ($objectSee) {
             return Response::json($objectSee, 200);
         
