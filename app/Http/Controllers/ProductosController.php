@@ -20,7 +20,7 @@ class ProductosController extends Controller
      */
     public function index()
     {
-        return Response::json(Productos::with('tipos','categorias','marcas','inventario')->get(), 200);
+        return Response::json(Productos::with('tipos','categorias','marcas','presentaciones','imagenes')->get(), 200);
     }
 
     public function getThisByFilter(Request $request, $id,$state)
@@ -30,14 +30,19 @@ class ProductosController extends Controller
                 case 'tipo':{
                     $objectSee = Productos::select('categoria')->whereRaw('marca=?',[$id])->groupby('categoria')->orderby('categoria')->get();
                     $objectSee = Categorias::whereIn("id",$objectSee)->with('padre','subcategorias','productos')->get();
+
+                    foreach ($objectSee as $key => $value) {
+                        $objectSee2 = Productos::whereRaw('marca=? and categoria=?',[$id,$value->id])->get();
+                        $value->productos2 = $objectSee2;
+                    }
                     break;
                 }
                 case 'nombre':{
-                    $objectSee = Productos::whereRaw('nombre=?',[$id])->with('tipos','categorias','marcas')->get();
+                    $objectSee = Productos::whereRaw('nombre=?',[$id])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
                     break;
                 }
                 case 'nombres':{
-                    $objectSee = Productos::whereRaw('nombre like %?%',[$id])->with('tipos','categorias','marcas')->get();
+                    $objectSee = Productos::whereRaw('nombre like %?%',[$id])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
                     break;
                 }
                 case 'marca':{
@@ -46,25 +51,25 @@ class ProductosController extends Controller
                     break;
                 }
                 case 'categoria_tipo':{
-                    $objectSee = Productos::whereRaw('categoria=? && tipo=?',[$id,$state])->with('tipos','categorias','marcas')->get();
+                    $objectSee = Productos::whereRaw('categoria=? && tipo=?',[$id,$state])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
                     break;
                 }
                 case 'categoria_marca':{
-                    $objectSee = Productos::whereRaw('categoria=? && marca=?',[$id,$state])->with('tipos','categorias','marcas')->get();
+                    $objectSee = Productos::whereRaw('categoria=? && marca=?',[$id,$state])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
                     break;
                 }
                 case 'categoria':{
-                    $objectSee = Productos::whereRaw('categoria=?',[$id])->with('tipos','categorias','marcas')->get();
+                    $objectSee = Productos::whereRaw('categoria=?',[$id])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
                     break;
                 }
                 default:{
-                    $objectSee = Productos::whereRaw('user=? and state=?',[$id,$state])->with('tipos','categorias','marcas')->get();
+                    $objectSee = Productos::whereRaw('user=? and state=?',[$id,$state])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
                     break;
                 }
     
             }
         }else{
-            $objectSee = Productos::whereRaw('user=? and state=?',[$id,$state])->with('tipos','categorias','marcas')->get();
+            $objectSee = Productos::whereRaw('user=? and state=?',[$id,$state])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
         }
     
         if ($objectSee) {
@@ -195,6 +200,8 @@ class ProductosController extends Controller
     {
         $objectSee = Productos::find($id);
         if ($objectSee) {
+            $objectSee->imagenes;
+            $objectSee->presentaciones;
             return Response::json($objectSee, 200);
         
         }

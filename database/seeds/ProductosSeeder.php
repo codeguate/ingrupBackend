@@ -11,627 +11,136 @@ class ProductosSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo 1",
-            'nombre'     => "Modelo 1",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/modelo1.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Bote 01",
-            'nombre'     => "Modelo Bote 01",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-50",
-            'model'  => "assets/models/mdl_bote_01.obj",
-            'tX'     => "0",
-            'tY'     => "-10",
-            'tZ'     => "0",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "0",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Preforma_pet_33mm",
-            'nombre'     => "Modelo Preforma_pet_33mm",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_preforma_pet_33mm.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Preforma_pet_1816mm",
-            'nombre'     => "Modelo Preforma_pet_1816mm",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_preforma_pet_1816mm.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Preforma_pet_1881mm",
-            'nombre'     => "Modelo Preforma_pet_1881mm",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_preforma_pet_1881mm.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_carbonatada_csd_1_v1_28mm_1881",
-            'nombre'     => "Modelo Tapa_carbonatada_csd_1_v1_28mm_1881",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_carbonatada_csd_1_v1_28mm_1881.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_carbonatada_csd8_28mm_1881",
-            'nombre'     => "Modelo Tapa_carbonatada_csd8_28mm_1881",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_carbonatada_csd8_28mm_1881.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_liner_af6_pn_y_pr_1816_mm",
-            'nombre'     => "Modelo Tapa_liner_af6_pn_y_pr_1816_mm",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_liner_af6_pn_y_pr_1816_mm.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_liner_pc_1881_mm",
-            'nombre'     => "Modelo Tapa_liner_pc_1881_mm",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_liner_pc_1881_mm.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_nocarbonatada_33mm",
-            'nombre'     => "Modelo Tapa_nocarbonatada_33mm",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_nocarbonatada_33mm.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_nocarbonatada_CAF4_1816",
-            'nombre'     => "Modelo Tapa_nocarbonatada_CAF4_1816",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_nocarbonatada_CAF4_1816.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_nocarbonatada_caf5_28mm_1881",
-            'nombre'     => "Modelo Tapa_nocarbonatada_caf5_28mm_1881",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_nocarbonatada_caf5_28mm_1881.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
+        DB::table('productos')->insert(['descripcion'=> "preforma 1881",'nombre'=> "Preforma 1881",'tipo'=> 1,'categoria'=> 1,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Preforma 1816",'nombre'=> "Preforma 1816",'tipo'=> 1,'categoria'=> 1,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_noname_01",
-            'nombre'     => "Modelo Tapa_noname_01",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_noname_01.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_noname_02",
-            'nombre'     => "Modelo Tapa_noname_02",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_noname_02.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_noname_03_02",
-            'nombre'     => "Modelo Tapa_noname_03_02",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_noname_03_02.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_noname_03",
-            'nombre'     => "Modelo Tapa_noname_03",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_noname_03.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_noname_04_02",
-            'nombre'     => "Modelo Tapa_noname_04_02",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_noname_04_02.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_noname_04",
-            'nombre'     => "Modelo Tapa_noname_04",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_noname_04.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapa_noname_05_parte_03",
-            'nombre'     => "Modelo Tapa_noname_05_parte_03",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapa_noname_05_parte_03.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapon_01",
-            'nombre'     => "Modelo Tapon_01",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapon_01.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
-        DB::table('productos')->insert([
-            'descripcion'    => "Modelo Tapon 02",
-            'nombre'     => "Modelo Tapon 02",
-            'codigo'     => "000",
-            'foto'   => null,
-            'marcaDes'   => "",
-            'estado'     => "1",
-            'marcado'    => "",
-            'hasModel'   => true,
-            'fov'    => "50",
-            'near'   => "1",
-            'far'    => "1100",
-            'pX'     => "-5",
-            'pY'     => "0",
-            'pZ'     => "-10",
-            'model'  => "assets/models/mdl_tapon_02.obj",
-            'tX'     => "0",
-            'tY'     => "0",
-            'tZ'     => "25",
-            'rX'     => "0",
-            'rY'     => "0",
-            'rZ'     => "-25",
-            'tipo'   => 1,
-            'categoria'   => 1,
-            'marca'   => 11,
-            'deleted_at'       => null,
-            'created_at'       => date('Y-m-d H:m:s'),
-            'updated_at'       => date('Y-m-d H:m:s')
-        ]);
+        DB::table('productos')->insert(['descripcion'=> "Envase PET 500 ml",'nombre'=> "Envase PET 500 ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase PET 600 ml",'nombre'=> "Envase PET 600 ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase PET 1.50 litros",'nombre'=> "Envase PET 1.50 litros",'tipo'=> 2,'categoria'=> 2,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase PET 2 litros",'nombre'=> "Envase PET 2 litros",'tipo'=> 2,'categoria'=> 2,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase PET 3 litros ",'nombre'=> "Envase PET 3 litros ",'tipo'=> 2,'categoria'=> 2,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase PET  3.3 litros",'nombre'=> "Envase PET  3.3 litros",'tipo'=> 2,'categoria'=> 2,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase PET 2.5 litros",'nombre'=> "Envase PET 2.5 litros",'tipo'=> 2,'categoria'=> 2,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('productos')->insert(['descripcion'=> "AF6-PN y PR",'nombre'=> "AF6-PN y PR",'tipo'=> 3,'categoria'=> 3,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "PC 1881",'nombre'=> "PC 1881",'tipo'=> 3,'categoria'=> 3,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CSD (Carbonated Soft Drinks)1 V1",'nombre'=> "CSD (Carbonated Soft Drinks)1 V1",'tipo'=> 3,'categoria'=> 3,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CSD (Carbonated Soft Drinks)8",'nombre'=> "CSD (Carbonated Soft Drinks)8",'tipo'=> 3,'categoria'=> 3,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "PryOff",'nombre'=> "PryOff",'tipo'=> 3,'categoria'=> 3,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('productos')->insert(['descripcion'=> "BOPP Transparente -BoPP Metalizado ",'nombre'=> "BOPP Transparente -BoPP Metalizado ",'tipo'=> 4,'categoria'=> 4,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "BOPP Transparente",'nombre'=> "BOPP Transparente",'tipo'=> 4,'categoria'=> 4,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Cavitado",'nombre'=> "Cavitado",'tipo'=> 4,'categoria'=> 4,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Transparente Cavitado",'nombre'=> "Transparente Cavitado",'tipo'=> 4,'categoria'=> 4,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Bobina Polietileno",'nombre'=> "Bobina Polietileno",'tipo'=> 4,'categoria'=> 4,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         
+        DB::table('productos')->insert(['descripcion'=> "Cavitado",'nombre'=> "Cavitado",'tipo'=> 5,'categoria'=> 5,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('productos')->insert(['descripcion'=> "12 Botellas Litro",'nombre'=> "12 Botellas Litro",'tipo'=> 6,'categoria'=> 6,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "12 Botellas Litro",'nombre'=> "12 Botellas Litro",'tipo'=> 6,'categoria'=> 6,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12 Oz",'nombre'=> "24 Botellas  12 Oz",'tipo'=> 6,'categoria'=> 6,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12  Oz",'nombre'=> "24 Botellas  12  Oz",'tipo'=> 6,'categoria'=> 6,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas 12 Oz  baja",'nombre'=> "24 Botellas 12 Oz  baja",'tipo'=> 6,'categoria'=> 6,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas Medio Litro alta",'nombre'=> "24 Botellas Medio Litro alta",'tipo'=> 6,'categoria'=> 6,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "30 Botellas  7/8 Onzas",'nombre'=> "30 Botellas  7/8 Onzas",'tipo'=> 6,'categoria'=> 6,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12 Onzas  baja",'nombre'=> "24 Botellas  12 Onzas  baja",'tipo'=> 6,'categoria'=> 6,'marca'=> 9,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        
+        DB::table('productos')->insert(['descripcion'=> "Preforma",'nombre'=> "Preforma",'tipo'=> 1,'categoria'=> 1,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Preforma 1881",'nombre'=> "Preforma 1881",'tipo'=> 1,'categoria'=> 1,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Preforma 1816",'nombre'=> "Preforma 1816",'tipo'=> 1,'categoria'=> 1,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        
+        DB::table('productos')->insert(['descripcion'=> "Envase 300 ml ",'nombre'=> "Envase 300 ml ",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 750 ml ",'nombre'=> "Envase 750 ml ",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 500 ml  anillos ",'nombre'=> "Envase 500 ml  anillos ",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 600 ml   anillos ",'nombre'=> "Envase 600 ml   anillos ",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 1L",'nombre'=> "Envase 1L",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 1L anillos  ",'nombre'=> "Envase 1L anillos  ",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 1.5 L ",'nombre'=> "Envase 1.5 L ",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 2L ",'nombre'=> "Envase 2L ",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 3L",'nombre'=> "Envase 3L",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 3.3 L",'nombre'=> "Envase 3.3 L",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 2.5 L",'nombre'=> "Envase 2.5 L",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 250 ml",'nombre'=> "Envase 250 ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 200ml",'nombre'=> "Envase 200ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 250ml",'nombre'=> "Envase 250ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 240ml",'nombre'=> "Envase 240ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase  500 ml",'nombre'=> "Envase  500 ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 750 ml",'nombre'=> "Envase 750 ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 750 ml ",'nombre'=> "Envase 750 ml ",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 1 LT",'nombre'=> "Envase 1 LT",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 1/2 Galón",'nombre'=> "Envase 1/2 Galón",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 1 Galón PE",'nombre'=> "Envase 1 Galón PE",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Garrafa",'nombre'=> "Garrafa",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Garrafa",'nombre'=> "Garrafa",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Garrafón",'nombre'=> "Garrafón",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Garrafón",'nombre'=> "Garrafón",'tipo'=> 2,'categoria'=> 2,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('productos')->insert(['descripcion'=> "AF6-PN y PR",'nombre'=> "AF6-PN y PR",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CSD1 V1",'nombre'=> "CSD1 V1",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CAF4-1816",'nombre'=> "CAF4-1816",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "28m  1816",'nombre'=> "28m  1816",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "PC 1881",'nombre'=> "PC 1881",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CSD8 1881",'nombre'=> "CSD8 1881",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CAF 5",'nombre'=> "CAF 5",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Sport Cap 3 Piezas",'nombre'=> "Sport Cap 3 Piezas",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Sport Cap 3 Piezas",'nombre'=> "Sport Cap 3 Piezas",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Sport Cap 2 Piezas",'nombre'=> "Sport Cap 2 Piezas",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Tapa dosificadora Lateral con Foil",'nombre'=> "Tapa dosificadora Lateral con Foil",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "33 mm",'nombre'=> "33 mm",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "PryOFF",'nombre'=> "PryOFF",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "38 mm Presion GT",'nombre'=> "38 mm Presion GT",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "38 mm Rosca PE CP2",'nombre'=> "38 mm Rosca PE CP2",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "38 mm Rosca  PE",'nombre'=> "38 mm Rosca  PE",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "38 mm Rosca  PE Liner",'nombre'=> "38 mm Rosca  PE Liner",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Tapa  55 mm Con Vertedero",'nombre'=> "Tapa  55 mm Con Vertedero",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Tapa 55 mm Plana Clip",'nombre'=> "Tapa 55 mm Plana Clip",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Tapa 53 mm Plana Faldón Corto",'nombre'=> "Tapa 53 mm Plana Faldón Corto",'tipo'=> 3,'categoria'=> 3,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('productos')->insert(['descripcion'=> "BOPP Transparente",'nombre'=> "BOPP Transparente",'tipo'=> 4,'categoria'=> 4,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Bobina Polietileno",'nombre'=> "Bobina Polietileno",'tipo'=> 4,'categoria'=> 4,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Cavitado",'nombre'=> "Cavitado",'tipo'=> 4,'categoria'=> 4,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Transparente Cavitado",'nombre'=> "Transparente Cavitado",'tipo'=> 4,'categoria'=> 4,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        
+        DB::table('productos')->insert(['descripcion'=> "Multipacks",'nombre'=> "Multipacks",'tipo'=> 5,'categoria'=> 5,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('productos')->insert(['descripcion'=> "12 Botellas Litro",'nombre'=> "12 Botellas Litro",'tipo'=> 6,'categoria'=> 6,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "12 Botellas Litro",'nombre'=> "12 Botellas Litro",'tipo'=> 6,'categoria'=> 6,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12 Oz",'nombre'=> "24 Botellas  12 Oz",'tipo'=> 6,'categoria'=> 6,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12 Oz",'nombre'=> "24 Botellas  12 Oz",'tipo'=> 6,'categoria'=> 6,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas 12 Oz  baja",'nombre'=> "24 Botellas 12 Oz  baja",'tipo'=> 6,'categoria'=> 6,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas Medio Litro alta",'nombre'=> "24 Botellas Medio Litro alta",'tipo'=> 6,'categoria'=> 6,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "30 Botellas  7/8 Onzas",'nombre'=> "30 Botellas  7/8 Onzas",'tipo'=> 6,'categoria'=> 6,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12 Onzas  baja",'nombre'=> "24 Botellas  12 Onzas  baja",'tipo'=> 6,'categoria'=> 6,'marca'=> 10,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        
+        DB::table('productos')->insert(['descripcion'=> "Proformas 1881",'nombre'=> "Proformas 1881",'tipo'=> 1,'categoria'=> 1,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Proformas 1816",'nombre'=> "Proformas 1816",'tipo'=> 1,'categoria'=> 1,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        
+        DB::table('productos')->insert(['descripcion'=> "Envase 365 ml",'nombre'=> "Envase 365 ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 750 ml",'nombre'=> "Envase 750 ml",'tipo'=> 2,'categoria'=> 2,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Envase 1L",'nombre'=> "Envase 1L",'tipo'=> 2,'categoria'=> 2,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('productos')->insert(['descripcion'=> "AF6-PN y PR",'nombre'=> "AF6-PN y PR",'tipo'=> 3,'categoria'=> 3,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CAF4-1816",'nombre'=> "CAF4-1816",'tipo'=> 3,'categoria'=> 3,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "PC 1881",'nombre'=> "PC 1881",'tipo'=> 3,'categoria'=> 3,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CSD8 1881",'nombre'=> "CSD8 1881",'tipo'=> 3,'categoria'=> 3,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "CAF 5",'nombre'=> "CAF 5",'tipo'=> 3,'categoria'=> 3,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Tapa Pry Off",'nombre'=> "Tapa Pry Off",'tipo'=> 3,'categoria'=> 3,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Twist Off",'nombre'=> "Twist Off",'tipo'=> 3,'categoria'=> 3,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        
+        DB::table('productos')->insert(['descripcion'=> "Bobina Polietileno",'nombre'=> "Bobina Polietileno",'tipo'=> 4,'categoria'=> 4,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "PET G",'nombre'=> "PET G",'tipo'=> 4,'categoria'=> 4,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+    
+        DB::table('productos')->insert(['descripcion'=> "Etiquetas",'nombre'=> "Etiquetas",'tipo'=> 5,'categoria'=> 5,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "Multiipacks",'nombre'=> "Multiipacks",'tipo'=> 5,'categoria'=> 5,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('productos')->insert(['descripcion'=> "12 Botellas Litro",'nombre'=> "12 Botellas Litro",'tipo'=> 6,'categoria'=> 6,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "12 Botellas Litro",'nombre'=> "12 Botellas Litro",'tipo'=> 6,'categoria'=> 6,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12 Oz",'nombre'=> "24 Botellas  12 Oz",'tipo'=> 6,'categoria'=> 6,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12 Oz",'nombre'=> "24 Botellas  12 Oz",'tipo'=> 6,'categoria'=> 6,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas 12 Oz  baja",'nombre'=> "24 Botellas 12 Oz  baja",'tipo'=> 6,'categoria'=> 6,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas Medio Litro alta",'nombre'=> "24 Botellas Medio Litro alta",'tipo'=> 6,'categoria'=> 6,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "30 Botellas  7/8 Onzas",'nombre'=> "30 Botellas  7/8 Onzas",'tipo'=> 6,'categoria'=> 6,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('productos')->insert(['descripcion'=> "24 Botellas  12 Onzas  baja",'nombre'=> "24 Botellas  12 Onzas  baja",'tipo'=> 6,'categoria'=> 6,'marca'=> 11,'codigo'=> "000",'foto'=> null,'marcaDes'=> "",'estado'=> "1",'marcado'=> "",'hasModel'=> false,'fov'=> "50",'near'=> "1",'far'=> "1100",'pX'=> "-5",'pY'=> "0",'pZ'=> "-50",'model' => "assets/models/mdl_bote_01.obj",'tX'=> "0",'tY'=> "-10",'tZ'=> "0",'rX'=> "0",'rY'=> "0",'rZ'=> "0",'deleted_at'=> null,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
     }
 }

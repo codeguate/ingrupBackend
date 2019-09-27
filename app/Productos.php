@@ -25,4 +25,12 @@ class Productos extends Model
     public function categorias(){
         return $this->hasOne('App\Categorias','id','categoria')->with('padre');
     }
+
+    public function presentaciones(){
+        return $this->hasMany('App\Presentaciones','producto','id');
+    }
+
+    public function imagenes(){
+        return $this->hasMany('App\ImagenesProductos','producto','id');
+    }
 }

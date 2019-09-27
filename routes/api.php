@@ -32,6 +32,7 @@ Route::resource('movimientosc', 'MovimientosCController');
 Route::resource('movimientosp', 'MovimientosPController');
 Route::resource('municipios', 'MunicipiosController');
 Route::resource('paises', 'PaisesController');
+Route::resource('presentaciones', 'PresentacionesController');
 Route::resource('productos', 'ProductosController');
 Route::resource('proveedores', 'ProveedoresController');
 Route::resource('puestos', 'PuestosController');
@@ -76,6 +77,7 @@ Route::get('filter/{id}/marcas/{state}', "MarcasController@getThisByFilter");
 Route::get('filter/{id}/tiposproducto/{state}', "TiposProductoController@getThisByFilter");
 Route::get('filter/{id}/categorias/{state}', "CategoriasController@getThisByFilter");
 Route::get('filter/{id}/inventario/{state}', "InventarioController@getThisByFilter");
+Route::get('filter/{id}/presentaciones/{state}', "PresentacionesController@getThisByFilter");
 
 Route::get('shopify/orders', 'VentasController@Ordenes');
 Route::get('shopify/products', 'VentasController@Products');
