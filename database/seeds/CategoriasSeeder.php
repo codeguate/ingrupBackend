@@ -381,6 +381,17 @@ class CategoriasSeeder extends Seeder
             'created_at'       => date('Y-m-d H:m:s'),
             'updated_at'       => date('Y-m-d H:m:s')
         ]);
+        
+        DB::table('categorias')->insert([
+            'nombre'      => "Bio Cup",
+            'orden'      => 26,
+            'foto'      => "assets/images/Mercados/Modulo-1/iconos/Food-service/Vasos.png",
+            'descripcion'      => "Bio Cup",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
 
         DB::table('tiposproducto')->insert([
             'nombre'      => "Preformas",
@@ -626,6 +637,16 @@ class CategoriasSeeder extends Seeder
             'nombre'      => "Linea Vial",
             'foto'      => "assets/images/Mercados/Modulo-1/menu-principal/Linea-Vial.png",
             'descripcion'      => "Linea Vial",
+            'estado'           => 1,
+            'deleted_at'       => null,
+            'created_at'       => date('Y-m-d H:m:s'),
+            'updated_at'       => date('Y-m-d H:m:s')
+        ]);
+        
+        DB::table('tiposproducto')->insert([
+            'nombre'      => "Bio Cup",
+            'foto'      => "assets/images/Mercados/Modulo-1/iconos/Food-service/Vasos.png",
+            'descripcion'      => "Bio Cup",
             'estado'           => 1,
             'deleted_at'       => null,
             'created_at'       => date('Y-m-d H:m:s'),
