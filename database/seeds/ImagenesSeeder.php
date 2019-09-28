@@ -34,7 +34,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 18,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 19,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 20,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 20,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla1.jpg','foto'=> 'assets/fotos/cajilla1.jpg','separador'=> null,'calibres'=> null,'producto'=> 21,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla1.jpg','foto'=> 'assets/fotos/cajilla1.jpg','separador'=> null,'calibres'=> null,'producto'=> 22,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -101,7 +101,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 79,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 80,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 81,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 81,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla1.jpg','foto'=> 'assets/fotos/cajilla1.jpg','separador'=> null,'calibres'=> null,'producto'=> 82,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla1.jpg','foto'=> 'assets/fotos/cajilla1.jpg','separador'=> null,'calibres'=> null,'producto'=> 83,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -130,8 +130,8 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 102,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 103,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 104,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 105,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 104,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 105,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla1.jpg','foto'=> 'assets/fotos/cajilla1.jpg','separador'=> null,'calibres'=> null,'producto'=> 106,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla1.jpg','foto'=> 'assets/fotos/cajilla1.jpg','separador'=> null,'calibres'=> null,'producto'=> 107,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -164,7 +164,7 @@ class ImagenesSeeder extends Seeder
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 131,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 132,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 132,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 133,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 134,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -198,7 +198,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 159,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 160,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 161,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 161,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 162,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 163,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -292,7 +292,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 243,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 244,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 245,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 245,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 246,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 247,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -302,7 +302,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 251,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 252,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 253,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 253,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 254,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 255,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -319,7 +319,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 265,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 266,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico1.jpg','foto'=> 'assets/fotos/empaque-litografico1.jpg','separador'=> null,'calibres'=> null,'producto'=> 267,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico1.png','foto'=> 'assets/fotos/litografico1.png','separador'=> null,'calibres'=> null,'producto'=> 267,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 268,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 269,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -434,7 +434,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 18,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 19,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 20,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 20,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla2.jpg','foto'=> 'assets/fotos/cajilla2.jpg','separador'=> null,'calibres'=> null,'producto'=> 21,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla2.jpg','foto'=> 'assets/fotos/cajilla2.jpg','separador'=> null,'calibres'=> null,'producto'=> 22,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -501,7 +501,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 79,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 80,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 81,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 81,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla2.jpg','foto'=> 'assets/fotos/cajilla2.jpg','separador'=> null,'calibres'=> null,'producto'=> 82,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla2.jpg','foto'=> 'assets/fotos/cajilla2.jpg','separador'=> null,'calibres'=> null,'producto'=> 83,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -530,8 +530,8 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 102,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 103,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 104,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 105,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 104,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 105,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla2.jpg','foto'=> 'assets/fotos/cajilla2.jpg','separador'=> null,'calibres'=> null,'producto'=> 106,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla2.jpg','foto'=> 'assets/fotos/cajilla2.jpg','separador'=> null,'calibres'=> null,'producto'=> 107,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -564,7 +564,7 @@ class ImagenesSeeder extends Seeder
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 131,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 132,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 132,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 133,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 134,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -598,7 +598,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 159,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 160,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 161,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 161,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 162,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 163,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -692,7 +692,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 243,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 244,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 245,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 245,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 246,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 247,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -702,7 +702,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 251,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 252,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 253,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 253,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 254,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 255,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -719,7 +719,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 265,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 266,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico2.jpg','foto'=> 'assets/fotos/empaque-litografico2.jpg','separador'=> null,'calibres'=> null,'producto'=> 267,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico2.png','foto'=> 'assets/fotos/litografico2.png','separador'=> null,'calibres'=> null,'producto'=> 267,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 268,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 269,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -832,7 +832,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 18,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 19,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 20,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 20,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla3.jpg','foto'=> 'assets/fotos/cajilla3.jpg','separador'=> null,'calibres'=> null,'producto'=> 21,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla3.jpg','foto'=> 'assets/fotos/cajilla3.jpg','separador'=> null,'calibres'=> null,'producto'=> 22,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -899,7 +899,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 79,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 80,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 81,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 81,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla3.jpg','foto'=> 'assets/fotos/cajilla3.jpg','separador'=> null,'calibres'=> null,'producto'=> 82,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla3.jpg','foto'=> 'assets/fotos/cajilla3.jpg','separador'=> null,'calibres'=> null,'producto'=> 83,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -928,8 +928,8 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 102,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 103,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 104,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 105,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 104,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 105,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla3.jpg','foto'=> 'assets/fotos/cajilla3.jpg','separador'=> null,'calibres'=> null,'producto'=> 106,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla3.jpg','foto'=> 'assets/fotos/cajilla3.jpg','separador'=> null,'calibres'=> null,'producto'=> 107,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -962,7 +962,7 @@ class ImagenesSeeder extends Seeder
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 131,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 132,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 132,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 133,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 134,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -996,7 +996,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 159,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 160,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 161,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 161,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 162,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 163,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -1090,7 +1090,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 243,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 244,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 245,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 245,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 246,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 247,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -1100,7 +1100,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 251,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 252,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 253,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 253,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 254,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 255,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -1117,7 +1117,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 265,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 266,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-litografico3.jpg','foto'=> 'assets/fotos/empaque-litografico3.jpg','separador'=> null,'calibres'=> null,'producto'=> 267,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/litografico3.png','foto'=> 'assets/fotos/litografico3.png','separador'=> null,'calibres'=> null,'producto'=> 267,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 268,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 269,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
