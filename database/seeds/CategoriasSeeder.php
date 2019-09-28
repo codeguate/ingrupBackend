@@ -63,7 +63,7 @@ class CategoriasSeeder extends Seeder
         ]);
         DB::table('marcas')->insert([
             'nombre'      => "Soluciones de almacenamiento de Agua ",
-            'foto'      => "assets/images/Mercados/Modulo-1/menu-principal/Resinas-recicladas.png",
+            'foto'      => "assets/images/Mercados/Modulo-1/menu-principal/Soluciones-de-almacenamiento-de-agua.png",
             'descripcion'      => "Soluciones de almacenamiento de Agua ",
             'estado'           => 1,
             'padre'           => null,
