@@ -407,7 +407,16 @@ class ImagenesSeeder extends Seeder
 
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/soluciones-agua1.jpg','foto'=> 'assets/fotos/soluciones-agua1.jpg','separador'=> null,'calibres'=> null,'producto'=> 340,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-    
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cistenas1.jpg','foto'=> 'assets/fotos/cistenas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 341,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/fosas-septicas1.jpg','foto'=> 'assets/fotos/fosas-septicas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 342,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/pilas1.jpg','foto'=> 'assets/fotos/pilas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 343,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/lavaderos1.jpg','foto'=> 'assets/fotos/lavaderos1.jpg','separador'=> null,'calibres'=> null,'producto'=> 344,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas1.jpg','foto'=> 'assets/fotos/cajas-agricolas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/canastos1.jpg','foto'=> 'assets/fotos/canastos1.jpg','separador'=> null,'calibres'=> null,'producto'=> 346,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/linea-vial1.jpg','foto'=> 'assets/fotos/linea-vial1.jpg','separador'=> null,'calibres'=> null,'producto'=> 347,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         
         // imagens2
 
@@ -807,7 +816,16 @@ class ImagenesSeeder extends Seeder
 
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/soluciones-agua2.jpg','foto'=> 'assets/fotos/soluciones-agua2.jpg','separador'=> null,'calibres'=> null,'producto'=> 340,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cistenas2.jpg','foto'=> 'assets/fotos/cistenas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 341,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/fosas-septicas2.jpg','foto'=> 'assets/fotos/fosas-septicas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 342,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/pilas2.jpg','foto'=> 'assets/fotos/pilas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 343,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/lavaderos2.jpg','foto'=> 'assets/fotos/lavaderos2.jpg','separador'=> null,'calibres'=> null,'producto'=> 344,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas2.jpg','foto'=> 'assets/fotos/cajas-agricolas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/canastos2.jpg','foto'=> 'assets/fotos/canastos2.jpg','separador'=> null,'calibres'=> null,'producto'=> 346,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/linea-vial2.jpg','foto'=> 'assets/fotos/linea-vial2.jpg','separador'=> null,'calibres'=> null,'producto'=> 347,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         // Imagen 3
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 1,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 2,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -1203,6 +1221,17 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/resinas-recicladas3.jpg','foto'=> 'assets/fotos/resinas-recicladas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 338,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/resinas-recicladas3.jpg','foto'=> 'assets/fotos/resinas-recicladas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 339,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/soluciones-agua3.jpg','foto'=> 'assets/fotos/soluciones-agua3.jpg','separador'=> null,'calibres'=> null,'producto'=> 340,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cistenas3.jpg','foto'=> 'assets/fotos/cistenas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 341,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/fosas-septicas3.jpg','foto'=> 'assets/fotos/fosas-septicas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 342,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/pilas3.jpg','foto'=> 'assets/fotos/pilas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 343,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/lavaderos3.jpg','foto'=> 'assets/fotos/lavaderos3.jpg','separador'=> null,'calibres'=> null,'producto'=> 344,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas3.jpg','foto'=> 'assets/fotos/cajas-agricolas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/canastos3.jpg','foto'=> 'assets/fotos/canastos3.jpg','separador'=> null,'calibres'=> null,'producto'=> 346,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/linea-vial3.jpg','foto'=> 'assets/fotos/linea-vial3.jpg','separador'=> null,'calibres'=> null,'producto'=> 347,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 // Proformas
         DB::table('presentaciones')->insert(['nombre'=> '','descripcion'=> '','calibres'=> '','separador'=> '','foto1'=> null,'material'=> 'PET ','peso'=> '18.5','cuello'=> '1881','altura'=> '92.87','largo'=> '92.87','unidades'=> '15.624','producto'=> '1','created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('presentaciones')->insert(['nombre'=> '','descripcion'=> '','calibres'=> '','separador'=> '','foto1'=> null,'material'=> 'PET ','peso'=> '18.5','cuello'=> '1881','altura'=> '92.35','largo'=> '92.35','unidades'=> '15.624','producto'=> '1','created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -1628,10 +1657,12 @@ class ImagenesSeeder extends Seeder
         DB::table('presentaciones')->insert(['nombre'=> '','descripcion'=> '','calibres'=> '','separador'=> '','foto1'=> null,'material'=> 'PET','peso'=> '60','cuello'=> '1816','altura'=> '162.2','largo'=> '162.2','unidades'=> '6.336','producto'=> '269','created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('presentaciones')->insert(['nombre'=> '','descripcion'=> '','calibres'=> '','separador'=> '','foto1'=> null,'material'=> 'PET','peso'=> '64','cuello'=> '1816','altura'=> '162.2','largo'=> '162.2','unidades'=> '6.336','producto'=> '269','created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-
         DB::table('presentaciones')->insert(['nombre'=> '','descripcion'=> '','calibres'=> '','separador'=> '','foto1'=> null,'material'=> 'PET','peso'=> '21.5','cuello'=> '33mm','altura'=> '92.1','largo'=> '92.1','unidades'=> '14688','producto'=> '270','created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('presentaciones')->insert(['nombre'=> '','descripcion'=> '','calibres'=> '','separador'=> '','foto1'=> null,'material'=> 'PET','peso'=> '23','cuello'=> '38 mm','altura'=> '95.17','largo'=> '95.17','unidades'=> '10800','producto'=> '271','created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('presentaciones')->insert(['nombre'=> '','descripcion'=> '','calibres'=> '','separador'=> '','foto1'=> null,'material'=> 'PET','peso'=> '27.7','cuello'=> '38 mm','altura'=> '95.17','largo'=> '95.17','unidades'=> '10800','producto'=> '272','created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('presentaciones')->insert(['nombre'=> '','descripcion'=> '','calibres'=> '','separador'=> '','foto1'=> null,'material'=> 'PET','peso'=> '90','cuello'=> '48 mm','altura'=> '307.5','largo'=> '307.5','unidades'=> '252','producto'=> '273','created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        
+        // Envases
+
     }
 }
