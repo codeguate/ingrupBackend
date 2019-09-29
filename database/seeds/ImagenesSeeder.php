@@ -245,9 +245,9 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 201,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible1.jpg','foto'=> 'assets/fotos/empaque-flexible1.jpg','separador'=> null,'calibres'=> null,'producto'=> 202,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas1.jpg','foto'=> 'assets/fotos/cajas-agricolas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 203,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas1.jpg','foto'=> 'assets/fotos/cajas-agricolas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 204,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas1.jpg','foto'=> 'assets/fotos/cajas-agricolas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 205,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola1.jpg','foto'=> 'assets/fotos/caja-agricola1.jpg','separador'=> null,'calibres'=> null,'producto'=> 203,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola1.jpg','foto'=> 'assets/fotos/caja-agricola1.jpg','separador'=> null,'calibres'=> null,'producto'=> 204,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola1.jpg','foto'=> 'assets/fotos/caja-agricola1.jpg','separador'=> null,'calibres'=> null,'producto'=> 205,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 206,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 207,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -412,7 +412,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/pilas1.jpg','foto'=> 'assets/fotos/pilas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 343,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/lavaderos1.jpg','foto'=> 'assets/fotos/lavaderos1.jpg','separador'=> null,'calibres'=> null,'producto'=> 344,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas1.jpg','foto'=> 'assets/fotos/cajas-agricolas1.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola1.jpg','foto'=> 'assets/fotos/caja-agricola1.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/canastos1.jpg','foto'=> 'assets/fotos/canastos1.jpg','separador'=> null,'calibres'=> null,'producto'=> 346,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
@@ -654,9 +654,9 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 201,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible2.jpg','foto'=> 'assets/fotos/empaque-flexible2.jpg','separador'=> null,'calibres'=> null,'producto'=> 202,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas2.jpg','foto'=> 'assets/fotos/cajas-agricolas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 203,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas2.jpg','foto'=> 'assets/fotos/cajas-agricolas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 204,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas2.jpg','foto'=> 'assets/fotos/cajas-agricolas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 205,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola2.jpg','foto'=> 'assets/fotos/caja-agricola2.jpg','separador'=> null,'calibres'=> null,'producto'=> 203,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola2.jpg','foto'=> 'assets/fotos/caja-agricola2.jpg','separador'=> null,'calibres'=> null,'producto'=> 204,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola2.jpg','foto'=> 'assets/fotos/caja-agricola2.jpg','separador'=> null,'calibres'=> null,'producto'=> 205,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 206,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 207,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -821,7 +821,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/pilas2.jpg','foto'=> 'assets/fotos/pilas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 343,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/lavaderos2.jpg','foto'=> 'assets/fotos/lavaderos2.jpg','separador'=> null,'calibres'=> null,'producto'=> 344,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas2.jpg','foto'=> 'assets/fotos/cajas-agricolas2.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola2.jpg','foto'=> 'assets/fotos/caja-agricola2.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/canastos2.jpg','foto'=> 'assets/fotos/canastos2.jpg','separador'=> null,'calibres'=> null,'producto'=> 346,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
@@ -1061,9 +1061,9 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 201,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/empaque-flexible3.jpg','foto'=> 'assets/fotos/empaque-flexible3.jpg','separador'=> null,'calibres'=> null,'producto'=> 202,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas3.jpg','foto'=> 'assets/fotos/cajas-agricolas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 203,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas3.jpg','foto'=> 'assets/fotos/cajas-agricolas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 204,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas3.jpg','foto'=> 'assets/fotos/cajas-agricolas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 205,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola3.jpg','foto'=> 'assets/fotos/caja-agricola3.jpg','separador'=> null,'calibres'=> null,'producto'=> 203,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola3.jpg','foto'=> 'assets/fotos/caja-agricola3.jpg','separador'=> null,'calibres'=> null,'producto'=> 204,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola3.jpg','foto'=> 'assets/fotos/caja-agricola3.jpg','separador'=> null,'calibres'=> null,'producto'=> 205,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 206,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 207,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -1227,7 +1227,7 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/pilas3.jpg','foto'=> 'assets/fotos/pilas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 343,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/lavaderos3.jpg','foto'=> 'assets/fotos/lavaderos3.jpg','separador'=> null,'calibres'=> null,'producto'=> 344,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajas-agricolas3.jpg','foto'=> 'assets/fotos/cajas-agricolas3.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/caja-agricola3.jpg','foto'=> 'assets/fotos/caja-agricola3.jpg','separador'=> null,'calibres'=> null,'producto'=> 345,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/canastos3.jpg','foto'=> 'assets/fotos/canastos3.jpg','separador'=> null,'calibres'=> null,'producto'=> 346,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
