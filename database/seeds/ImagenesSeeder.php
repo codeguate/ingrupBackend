@@ -112,8 +112,8 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla1.jpg','foto'=> 'assets/fotos/cajilla1.jpg','separador'=> null,'calibres'=> null,'producto'=> 88,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla1.jpg','foto'=> 'assets/fotos/cajilla1.jpg','separador'=> null,'calibres'=> null,'producto'=> 89,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/preforma1.jpg','foto'=> 'assets/fotos/preforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 90,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/preforma1.jpg','foto'=> 'assets/fotos/preforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 91,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 90,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma1.jpg','foto'=> 'assets/fotos/proforma1.jpg','separador'=> null,'calibres'=> null,'producto'=> 91,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/envase1.jpg','foto'=> 'assets/fotos/envase1.jpg','separador'=> null,'calibres'=> null,'producto'=> 92,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/envase1.jpg','foto'=> 'assets/fotos/envase1.jpg','separador'=> null,'calibres'=> null,'producto'=> 93,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -512,8 +512,8 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla2.jpg','foto'=> 'assets/fotos/cajilla2.jpg','separador'=> null,'calibres'=> null,'producto'=> 88,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla2.jpg','foto'=> 'assets/fotos/cajilla2.jpg','separador'=> null,'calibres'=> null,'producto'=> 89,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/preforma2.jpg','foto'=> 'assets/fotos/preforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 90,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/preforma2.jpg','foto'=> 'assets/fotos/preforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 91,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 90,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma2.jpg','foto'=> 'assets/fotos/proforma2.jpg','separador'=> null,'calibres'=> null,'producto'=> 91,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/envase2.jpg','foto'=> 'assets/fotos/envase2.jpg','separador'=> null,'calibres'=> null,'producto'=> 92,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/envase2.jpg','foto'=> 'assets/fotos/envase2.jpg','separador'=> null,'calibres'=> null,'producto'=> 93,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
@@ -910,8 +910,8 @@ class ImagenesSeeder extends Seeder
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla3.jpg','foto'=> 'assets/fotos/cajilla3.jpg','separador'=> null,'calibres'=> null,'producto'=> 88,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/cajilla3.jpg','foto'=> 'assets/fotos/cajilla3.jpg','separador'=> null,'calibres'=> null,'producto'=> 89,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/preforma3.jpg','foto'=> 'assets/fotos/preforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 90,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
-        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/preforma3.jpg','foto'=> 'assets/fotos/preforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 91,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 90,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
+        DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/proforma3.jpg','foto'=> 'assets/fotos/proforma3.jpg','separador'=> null,'calibres'=> null,'producto'=> 91,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
 
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/envase3.jpg','foto'=> 'assets/fotos/envase3.jpg','separador'=> null,'calibres'=> null,'producto'=> 92,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
         DB::table('imagenes_productos')->insert(['nombre'=> '','src'=> 'assets/fotos/envase3.jpg','foto'=> 'assets/fotos/envase3.jpg','separador'=> null,'calibres'=> null,'producto'=> 93,'created_at'=> date('Y-m-d H:m:s'),'updated_at'=> date('Y-m-d H:m:s')]);
