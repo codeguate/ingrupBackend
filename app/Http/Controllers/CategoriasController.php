@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Categorias;
+use App\Marcas;
 use Response;
 use Validator;
 class CategoriasController extends Controller
@@ -28,7 +29,15 @@ class CategoriasController extends Controller
                     break;
                 }
                 case 'nombre':{
-                    $objectSee = Categorias::whereRaw('nombre like %?%',[$id])->with('padre','subcategorias','productos')->get();
+                    $objectSee = Categorias::whereRaw('LOWER(nombre) like LOWER("%'.$id.'%")',[])->with('padre','subcategorias','productos')->get();
+                    $objectSee2 = Marcas::whereRaw('LOWER(nombre) like LOWER("%'.$id.'%")',[])->with('padre','submarca','productos')->get();
+                    foreach ($objectSee as $key => $value) {
+                        $value->pagina = "productos";
+                    }
+                    foreach ($objectSee2 as $key => $value) {
+                        $value->pagina = "mercados";
+                        $objectSee->push($value);
+                    }
                     break;
                 }
                 default:{

@@ -17,6 +17,6 @@ class Categorias extends Model
     }
     
     public function productos(){
-        return $this->hasMany('App\Productos','categoria','id')->with('tipos','categorias','marcas');
+        return $this->hasMany('App\Productos','categoria','id')->with('tipos','categorias','marcas','imagenes');
     }
 }
