@@ -42,7 +42,7 @@ class ProductosController extends Controller
                     break;
                 }
                 case 'nombres':{
-                    $objectSee = Productos::whereRaw('nombre like %?%',[$id])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
+                    $objectSee = Productos::whereRaw('LOWER(nombre) like LOWER("%'.$id.'%")',[])->with('tipos','categorias','marcas','presentaciones','imagenes')->get();
                     break;
                 }
                 case 'marca':{
