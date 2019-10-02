@@ -17,6 +17,31 @@ class PresentacionesController extends Controller
     public function index()
     {
         return Response::json(Presentaciones::all(), 200);
+        // $objectUpdate = Presentaciones::with('productos')->get();
+        // if ($objectUpdate) {
+        //     try {
+        //         foreach ($objectUpdate as $key => $value) {
+        //             $value->nombre = $value->productos->nombre;
+        //             $value->descripcion = $value->productos->nombre;
+        //             $value->save();
+        //         }
+        
+        //         return Response::json($objectUpdate, 200);
+        //     } catch (Exception $e) {
+        //         $returnData = array (
+        //             'status' => 500,
+        //             'message' => $e->getMessage()
+        //         );
+        //         return Response::json($returnData, 500);
+        //     }
+        // }
+        // else {
+        //     $returnData = array (
+        //         'status' => 404,
+        //         'message' => 'No record found'
+        //     );
+        //     return Response::json($returnData, 404);
+        // }
     }
     
     public function getThisByFilter(Request $request, $id,$state)

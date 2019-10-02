@@ -27,7 +27,7 @@ class Productos extends Model
     }
 
     public function presentaciones(){
-        return $this->hasMany('App\Presentaciones','producto','id');
+        return $this->hasMany('App\Presentaciones','producto','id')->with('productos');
     }
 
     public function imagenes(){
