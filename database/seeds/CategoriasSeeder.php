@@ -141,10 +141,10 @@ class CategoriasSeeder extends Seeder
         ]);
         
         DB::table('categorias')->insert([
-            'nombre'      => "Empaque flexible",
+            'nombre'      => "Empaque Flexible",
             'orden'      => 4,
             'foto'      => "assets/images/Productos/Modulo-1/Iconos/Empaque-flexible.png",
-            'descripcion'      => "Empaque flexible",
+            'descripcion'      => "Empaque Flexible",
             'estado'           => 1,
             'deleted_at'       => null,
             'created_at'       => date('Y-m-d H:m:s'),
@@ -424,9 +424,9 @@ class CategoriasSeeder extends Seeder
         ]);
         
         DB::table('tiposproducto')->insert([
-            'nombre'      => "Empaque flexible",
+            'nombre'      => "Empaque Flexible",
             'foto'      => "assets/images/Productos/Modulo-1/Iconos/Empaque-flexible.png",
-            'descripcion'      => "Empaque flexible",
+            'descripcion'      => "Empaque Flexible",
             'estado'           => 1,
             'deleted_at'       => null,
             'created_at'       => date('Y-m-d H:m:s'),
