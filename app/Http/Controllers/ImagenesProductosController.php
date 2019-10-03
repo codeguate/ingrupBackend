@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests;
+use App\Productos;
 use App\ImagenesProductos;
 use Response;
 use Validator;
@@ -87,6 +88,37 @@ class ImagenesProductosController extends Controller
         }
         else {
             try {
+                if($request->get('categoria')){
+                    $objectUpdate = Productos::whereRaw('categoria=?',$request->get('categoria'))->get();
+                    if ($objectUpdate) {
+                        try {
+                            foreach ($objectUpdate as $key => $value) {
+                                $newObject = new ImagenesProductos();
+                                $newObject->nombre            = $request->get('nombre');
+                                $newObject->src            = $request->get('src');
+                                $newObject->calibres            = $request->get('calibres');
+                                $newObject->separador            = $request->get('separador');
+                                $newObject->foto            = $request->get('foto');
+                                $newObject->producto            = $value->id;
+                                $newObject->save();
+                            }
+                           
+                        } catch (Exception $e) {
+                            $returnData = array (
+                                'status' => 500,
+                                'message' => $e->getMessage()
+                            );
+                            return Response::json($returnData, 500);
+                        }
+                    }
+                    else {
+                        $returnData = array (
+                            'status' => 404,
+                            'message' => 'No record found'
+                        );
+                        return Response::json($returnData, 404);
+                    }
+                }
                 $newObject = new ImagenesProductos();
                 $newObject->nombre            = $request->get('nombre');
                 $newObject->src            = $request->get('src');
