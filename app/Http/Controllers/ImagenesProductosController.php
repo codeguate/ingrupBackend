@@ -103,6 +103,8 @@ class ImagenesProductosController extends Controller
                                 $newObject->producto            = $value->id;
                                 $newObject->save();
                             }
+                            return Response::json($objectUpdate2, 200);
+
                            
                         } catch (Exception $e) {
                             $returnData = array (
@@ -119,16 +121,18 @@ class ImagenesProductosController extends Controller
                         );
                         return Response::json($returnData, 404);
                     }
+                }else{
+                    $newObject = new ImagenesProductos();
+                    $newObject->nombre            = $request->get('nombre');
+                    $newObject->src            = $request->get('src');
+                    $newObject->calibres            = $request->get('calibres');
+                    $newObject->separador            = $request->get('separador');
+                    $newObject->foto            = $request->get('foto');
+                    $newObject->producto            = $request->get('producto');
+                    $newObject->save();
+                    return Response::json($newObject, 200);
                 }
-                $newObject = new ImagenesProductos();
-                $newObject->nombre            = $request->get('nombre');
-                $newObject->src            = $request->get('src');
-                $newObject->calibres            = $request->get('calibres');
-                $newObject->separador            = $request->get('separador');
-                $newObject->foto            = $request->get('foto');
-                $newObject->producto            = $request->get('producto');
-                $newObject->save();
-                return Response::json($newObject, 200);
+                
     
             } catch (Exception $e) {
                 $returnData = array (
