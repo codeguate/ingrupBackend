@@ -89,7 +89,8 @@ class ImagenesProductosController extends Controller
         else {
             try {
                 if($request->get('categoria')){
-                    $objectUpdate = Productos::whereRaw('categoria=?',$request->get('categoria'))->get();
+                    $objectUpdate2 = Productos::whereRaw('id=?',$request->get('producto'))->first();
+                    $objectUpdate = Productos::whereRaw('categoria=? and marca=?',[$request->get('categoria'),$objectUpdate2->marca])->get();
                     if ($objectUpdate) {
                         try {
                             foreach ($objectUpdate as $key => $value) {
