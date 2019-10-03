@@ -14,7 +14,7 @@ class UsuariosSeeder extends Seeder
         DB::table('usuarios')->insert([
             'id'               => 1,
             'username'         => "admin",
-            'password'         => bcrypt('foxylabs'),
+            'password'         => bcrypt('1234'),
             'email'            => "admin@foxylabs.gt",
             'privileges'       => 1,
             'rol'              => 2,
@@ -44,7 +44,7 @@ class UsuariosSeeder extends Seeder
         DB::table('usuarios')->insert([
             'id'               => 2,
             'username'         => "daniel",
-            'password'         => bcrypt('foxylabs'),
+            'password'         => bcrypt('1234'),
             'email'            => "daniel@foxylabs.gt",
             'privileges'       => 1,
             'rol'              => 1,

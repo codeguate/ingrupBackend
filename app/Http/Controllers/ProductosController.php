@@ -236,8 +236,6 @@ class ProductosController extends Controller
     {
         $objectUpdate = Productos::find($id);
         if ($objectUpdate) {
-            $objectSee = Productos::whereRaw('codigo=? and id!=?',[$request->get('codigo'),$id])->first();
-            if (!$objectSee) {
                 try {
                     $objectUpdate->descripcion       = $request->get('descripcion', $objectUpdate->descripcion);
                     $objectUpdate->nombre            = $request->get('nombre', $objectUpdate->nombre);
@@ -283,14 +281,6 @@ class ProductosController extends Controller
                     );
                     return Response::json($returnData, 500);
                 }
-            }
-            else {
-                $returnData = array (
-                    'status' => 400,
-                    'message' => 'Record found, already exist'
-                );
-                return Response::json($returnData, 400);
-            }
         }
         else {
             $returnData = array (

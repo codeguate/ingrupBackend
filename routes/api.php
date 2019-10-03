@@ -25,6 +25,7 @@ Route::resource('cuentaspagar', 'CuentasPagarController');
 Route::resource('departamentos', 'DepartamentosController');
 Route::resource('empleados', 'EmpleadosController');
 Route::resource('gastos', 'GastosController');
+Route::resource('imagenesproductos', 'ImagenesProductosController');
 Route::resource('inventario', 'InventarioController');
 Route::resource('marcas', 'MarcasController');
 Route::resource('modulos', 'ModulosController');
@@ -53,6 +54,7 @@ Route::resource('vehiculos', 'VehiculosController');
 Route::get('usuarios/{id}/vehiculos', 'VehiculosController@getThisByClient');
 
 Route::post('usuarios/{id}/upload/avatar', 'UsuariosController@uploadAvatar');
+Route::post('upload', 'ImagenesProductosController@uploadAvatar');
 Route::post('usuarios/{id}/changepassword', 'UsuariosController@changePassword');
 Route::post('usuarios/password/reset', 'UsuariosController@recoveryPassword');
 
