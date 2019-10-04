@@ -202,6 +202,7 @@ class ProductosController extends Controller
         if ($objectSee) {
             $objectSee->imagenes;
             $objectSee->presentaciones;
+            $objectSee->slides;
             return Response::json($objectSee, 200);
         
         }
