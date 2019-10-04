@@ -40,6 +40,7 @@ Route::resource('puestos', 'PuestosController');
 Route::resource('roles', 'RolesController');
 Route::resource('sucursales', 'SucursalesController');
 Route::resource('sueldos', 'SueldosController');
+Route::resource('slides', 'SlidesController');
 Route::resource('taller', 'TallerController');
 Route::resource('tiposcompra', 'TiposCompraController');
 Route::resource('tiposproducto', 'TiposProductoController');
