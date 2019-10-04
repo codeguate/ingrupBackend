@@ -33,4 +33,8 @@ class Productos extends Model
     public function imagenes(){
         return $this->hasMany('App\ImagenesProductos','producto','id');
     }
+
+    public function slides(){
+        return $this->hasMany('App\Slides','producto','id');
+    }
 }
