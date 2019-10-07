@@ -48,6 +48,11 @@ class ProductosController extends Controller
                 case 'marca':{
                     $objectSee = Productos::select('marca')->whereRaw('categoria=?',[$id])->groupby('marca')->orderby('marca')->get();
                     $objectSee = Marcas::whereIn("id",$objectSee)->with('padre','submarca','productos')->get();
+
+                    foreach ($objectSee as $key => $value) {
+                        $objectSee2 = Productos::whereRaw('marca=? and categoria=?',[$value->id,$id])->get();
+                        $value->productos2 = $objectSee2;
+                    }
                     break;
                 }
                 case 'categoria_tipo':{
