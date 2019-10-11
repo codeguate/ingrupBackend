@@ -114,7 +114,6 @@ class ProductosController extends Controller
     public function store(Request $request)
     {
         $validator = Validator::make($request->all(), [
-            'codigo'          => 'required',
             'nombre'          => 'required',
             'tipo'            => 'required'
         ]);
@@ -127,15 +126,6 @@ class ProductosController extends Controller
             return Response::json($returnData, 400);
         }
         else {
-            $objectSee = Productos::whereRaw('codigo=?',[$request->get('codigo')])->first();
-            if ($objectSee) {
-                $returnData = array (
-                    'status' => 400,
-                    'message' => 'Record found, already exist'
-                );
-                return Response::json($returnData, 400);
-            }
-            else {
                 try {
                     $newObject = new Productos();
                     $newObject->descripcion       = $request->get('descripcion');
@@ -193,7 +183,6 @@ class ProductosController extends Controller
                     );
                     return Response::json($returnData, 500);
                 }
-            }
         }
     }
 
