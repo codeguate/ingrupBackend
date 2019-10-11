@@ -141,6 +141,8 @@ class ProductosController extends Controller
                     $newObject->descripcion       = $request->get('descripcion');
                     $newObject->nombre            = $request->get('nombre');
                     $newObject->codigo            = $request->get('codigo');
+                    $newObject->marca          = $request->get('marca');
+                    $newObject->categoria          = $request->get('categoria');
                     $newObject->marcaDes          = $request->get('marcaDes');
                     $newObject->hasModel              = $request->get('hasModel');
                     $newObject->fov              = $request->get('fov');
