@@ -22,7 +22,9 @@ class CreatePresentacionesTable extends Migration
             $table->string('foto1')->nullable()->default(null);
             $table->string('material')->nullable()->default(null);
             $table->double('peso')->nullable()->default(0);
-            $table->integer('cuello')->nullable()->default(0);
+            $table->double('cuello')->nullable()->default(0);
+            $table->double('liner')->nullable()->default(0);
+            $table->double('hotfill')->nullable()->default(0);
             $table->double('altura')->nullable()->default(0);
             $table->double('largo')->nullable()->default(0);
             $table->double('unidades')->nullable()->default(0);

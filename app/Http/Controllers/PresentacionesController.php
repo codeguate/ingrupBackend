@@ -127,6 +127,8 @@ class PresentacionesController extends Controller
                 $newObject->foto1            = $request->get('foto1');
                 $newObject->material            = $request->get('material');
                 $newObject->peso            = $request->get('peso');
+                $newObject->liner            = $request->get('liner');
+                $newObject->hotfill            = $request->get('hotfill');
                 $newObject->cuello            = $request->get('cuello');
                 $newObject->altura            = $request->get('altura');
                 $newObject->largo            = $request->get('largo');
@@ -201,6 +203,8 @@ class PresentacionesController extends Controller
                 $objectUpdate->cuello = $request->get('cuello', $objectUpdate->cuello);
                 $objectUpdate->altura = $request->get('altura', $objectUpdate->altura);
                 $objectUpdate->largo = $request->get('largo', $objectUpdate->largo);
+                $objectUpdate->liner = $request->get('liner', $objectUpdate->liner);
+                $objectUpdate->hotfill = $request->get('hotfill', $objectUpdate->hotfill);
                 $objectUpdate->unidades = $request->get('unidades', $objectUpdate->unidades);
                 $objectUpdate->producto = $request->get('producto', $objectUpdate->producto);
     
