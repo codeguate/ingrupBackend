@@ -26,21 +26,21 @@ class MainSlidersController extends Controller
         if($request->get('filter')){
             switch ($request->get('filter')) {
                 case 'state':{
-                    $objectSee = MainSliders::whereRaw('user=? and state=?',[$id,$state])->with('user')->get();
+                    $objectSee = MainSliders::whereRaw('state=?',[$state])->with('marcas')->get();
                     break;
                 }
                 case 'type':{
-                    $objectSee = MainSliders::whereRaw('user=? and tipo=?',[$id,$state])->with('user')->get();
+                    $objectSee = MainSliders::whereRaw('user=? and tipo=?',[$id,$state])->with('marcas')->get();
                     break;
                 }
                 default:{
-                    $objectSee = MainSliders::whereRaw('user=? and state=?',[$id,$state])->with('user')->get();
+                    $objectSee = MainSliders::whereRaw('user=? and state=?',[$id,$state])->with('marcas')->get();
                     break;
                 }
     
             }
         }else{
-            $objectSee = MainSliders::whereRaw('user=? and state=?',[$id,$state])->with('user')->get();
+            $objectSee = MainSliders::whereRaw('user=? and state=?',[$id,$state])->with('marcas')->get();
         }
     
         if ($objectSee) {

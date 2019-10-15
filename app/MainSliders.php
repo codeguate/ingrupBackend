@@ -8,7 +8,7 @@ class MainSliders extends Model
 {
     protected $table = 'main_sliders';
 
-    public function productos(){
-        return $this->hasOne('App\Productos','id','producto');
+    public function marcas(){
+        return $this->hasOne('App\Marcas','id','marca');
     }
 }
