@@ -64,6 +64,38 @@ class PresentacionesController extends Controller
                     $objectSee = Presentaciones::whereRaw('material=?',[$id])->with('productos')->get();
                     break;
                 }
+                case 'prod-nombre':{
+                    $objectSee = Presentaciones::whereRaw('producto=? && nombre=?',[$id,$state])->with('productos')->get();
+                    break;
+                }
+                case 'prod-separador':{
+                    $objectSee = Presentaciones::whereRaw('producto=? && separador=?',[$id,$state])->with('productos')->get();
+                    break;
+                }
+                case 'prod-material':{
+                    $objectSee = Presentaciones::whereRaw('producto=? && material=?',[$id,$state])->with('productos')->get();
+                    break;
+                }
+                case 'prod-peso':{
+                    $objectSee = Presentaciones::whereRaw('producto=? && peso=?',[$id,$state])->with('productos')->get();
+                    break;
+                }
+                case 'prod-cuello':{
+                    $objectSee = Presentaciones::whereRaw('producto=? && cuello=?',[$id,$state])->with('productos')->get();
+                    break;
+                }
+                case 'prod-altura':{
+                    $objectSee = Presentaciones::whereRaw('producto=? && altura=?',[$id,$state])->with('productos')->get();
+                    break;
+                }
+                case 'prod-largo':{
+                    $objectSee = Presentaciones::whereRaw('producto=? && largo=?',[$id,$state])->with('productos')->get();
+                    break;
+                }
+                case 'prod-unidades':{
+                    $objectSee = Presentaciones::whereRaw('producto=? && unidades=?',[$id,$state])->with('productos')->get();
+                    break;
+                }
                 default:{
                     $objectSee = Presentaciones::with('productos')->get();
                     break;
