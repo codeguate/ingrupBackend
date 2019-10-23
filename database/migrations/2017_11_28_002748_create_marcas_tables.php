@@ -19,6 +19,7 @@ class CreateMarcasTables extends Migration
             $table->string('foto')->nullable()->default(null);
             $table->string('descripcion')->nullable()->default(null);
             $table->string('fotoDefault')->nullable()->default(null);
+            $table->string('icono')->nullable()->default(null);
             $table->tinyInteger('estado')->nullable()->default(1);
 
             $table->integer('padre')->unsigned()->nullable()->default(null);

@@ -93,6 +93,7 @@ class MarcasController extends Controller
                 $newObject->estado            = $request->get('estado');
                 $newObject->fotoDefault            = $request->get('fotoDefault');
                 $newObject->padre            = $request->get('padre');
+                $newObject->icono            = $request->get('icono');
                 $newObject->save();
                 return Response::json($newObject, 200);
             
@@ -156,6 +157,7 @@ class MarcasController extends Controller
                 $objectUpdate->descripcion = $request->get('descripcion', $objectUpdate->descripcion);
                 $objectUpdate->estado = $request->get('estado', $objectUpdate->estado);
                 $objectUpdate->padre = $request->get('padre', $objectUpdate->padre);
+                $objectUpdate->icono = $request->get('icono', $objectUpdate->icono);
                 $objectUpdate->fotoDefault = $request->get('fotoDefault', $objectUpdate->fotoDefault);
         
                 $objectUpdate->save();
