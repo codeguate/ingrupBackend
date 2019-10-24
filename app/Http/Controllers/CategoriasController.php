@@ -17,7 +17,7 @@ class CategoriasController extends Controller
     */
     public function index()
     {
-        return Response::json(Categorias::with('padre','subcategorias','productos')->get(), 200);
+        return Response::json(Categorias::with('padre','subcategorias')->get(), 200);
     }
     
     public function getThisByFilter(Request $request, $id,$state)
