@@ -33,7 +33,7 @@ class ProductosController extends Controller
 
                     foreach ($objectSee as $key => $value) {
                         $objectSee2 = Productos::whereRaw('marca=? and categoria=?',[$id,$value->id])->get();
-                        $value->productos = null;
+                        unset($value->productos);
                         $value->productos = $objectSee2;
                     }
                     break;
