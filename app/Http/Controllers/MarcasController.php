@@ -28,6 +28,17 @@ class MarcasController extends Controller
                     $objectSee = Marcas::whereRaw('padre=?',[$id])->with('padre','submarca')->get();
                     break;
                 }
+                case 'hijos':{
+                    $objectSee1 = Marcas::with('padre','submarca')->get();
+                    $objectSee = collect();
+                    foreach ($objectSee1 as $key => $value) {
+                        $value->cantidadNum = sizeof($value->submarca);
+                        if(sizeof($value->submarca)<=0){
+                            $objectSee->push($value);
+                        }
+                    }
+                    break;
+                }
                 case 'nombre':{
                     $objectSee = Marcas::whereRaw('nombre like %?%',[$id])->with('padre','submarca')->get();
                     break;
