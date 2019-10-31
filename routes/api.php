@@ -56,6 +56,7 @@ Route::get('usuarios/{id}/vehiculos', 'VehiculosController@getThisByClient');
 
 Route::post('usuarios/{id}/upload/avatar', 'UsuariosController@uploadAvatar');
 Route::post('upload', 'ImagenesProductosController@uploadAvatar');
+Route::post('send', 'UsuariosController@sendEmail');
 Route::post('usuarios/{id}/changepassword', 'UsuariosController@changePassword');
 Route::post('usuarios/password/reset', 'UsuariosController@recoveryPassword');
 

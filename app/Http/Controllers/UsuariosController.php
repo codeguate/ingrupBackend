@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Mail;
 
 use App\Http\Requests;
 use App\Usuarios;
+use App\Marcas;
 use Response;
 use Validator;
 use Hash;
@@ -264,6 +265,67 @@ class UsuariosController extends Controller
             );
             return Response::json($returnData, 404);
         }
+    }
+    public function sendEmail(Request $request){
+        $validator = Validator::make($request->all(), [
+            'emailSend'          => 'required',
+            'emailResp'          => 'required',
+            'marca'          => 'required',
+            'asunto'          => 'required',
+            'mensaje'          => 'required',
+        ]);
+        if ( $validator->fails() ) {
+            $returnData = array (
+                'status' => 400,
+                'message' => 'Invalid Parameters',
+                'validator' => $validator
+            );
+            return Response::json($returnData, 400);
+        }
+        else {
+            try {
+                $config = [
+                    'email' => $request->get("emailSend"),
+                    'nombre' => $request->get("nombre"),
+                    'telefono' => $request->get("telefono"),
+                    'asunto' => $request->get("asunto"),
+                    'pais' => $request->get("pais"),
+                    'marca' => Marcas::whereRaw("id=?",[$request->get("marca")])->with('padre')->first(),
+                    'mensaje' => $request->get("mensaje"),
+
+                ];
+                $myData = (Object)[
+                    "email"=>$request->get("emailResp"),
+                    "emailResp"=>$request->get("emailSend"),
+                    "nombre"=>"INGRUP",
+                    "nombreResp"=>$request->get("nombre"),
+                    "asunto"=>$request->get("asunto"),
+                    "apellido"=>"S.A",
+                    "enviado"=>false,
+                    "emailConfig"=>$config
+                ];
+                if(Mail::send('emails.info', $config, function (Message $message) use ($myData){
+                    $message->from('info@ingrup.com', 'Info Ingrup')
+                            ->sender('info@ingrup.com', 'Info Ingrup')
+                            ->to($myData->email, $myData->nombre.' '.$myData->apellido)
+                            ->replyTo($myData->emailResp, $myData->nombreResp)
+                            ->subject('Contacto Ingrup:'.$myData->asunto);
+                
+                })){
+                    $myData->enviado = true;
+                }
+                
+                
+                return Response::json($myData, 200);
+            } catch (Exception $e) {
+                $returnData = array (
+                    'status' => 500,
+                    'message' => $e->getMessage()
+                );
+                return Response::json($returnData, 500);
+            }
+        }
+        
     }
     /**
      * Display the specified resource.
